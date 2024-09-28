@@ -21,8 +21,26 @@
             <a href="contact.html" target="_self">Contact Form</a>            
         </div>
 
+        <h1>Contact Form</h1>
+
     </header>
     <main>
+        <div class="contactcontainer">
+            <form action="/submit" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your first & last name here...">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email@example.com...">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="8" cols="50" placeholder="Type your message here..."></textarea>
+
+                <input type="submit" value="Submit">
+
+                <input type="reset" value="Reset">
+            </form>
+        </div>
 
     </main>
     <footer>
