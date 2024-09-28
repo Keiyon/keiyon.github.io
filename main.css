@@ -2,6 +2,10 @@ body {
     background-color: salmon
 }
 
+h1 {
+    text-align: center;
+}
+
 /* Code below is for my footer */
 .copyright {
     background-color: darkred;
